@@ -5,3 +5,8 @@ This repository is the official code for the paper "Switchable Online Knowledge 
 
 
 ## Requirements
+* python3.6
+* pytorch1.3.1
+* cuda10.0
+
+## Usages
