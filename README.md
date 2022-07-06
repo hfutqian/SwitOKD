@@ -32,7 +32,7 @@ Figure 2 The multi-network framework for training 3 networks simultaneously, inc
 
 ![results_table4](https://github.com/hfutqian/SwitOKD/blob/main/images/results_table4.png)
 
-
+![results_table7](https://github.com/hfutqian/SwitOKD/blob/main/images/results_table7.png)
 
 
 
