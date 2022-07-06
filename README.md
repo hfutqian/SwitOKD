@@ -9,8 +9,10 @@ basically on a par with other online arts.
 ![overview](https://github.com/hfutqian/SwitOKD/blob/main/images/overview.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figure 1 Illustration of the proposed SwitOKD framework.
 
-![multi-net](https://github.com/hfutqian/SwitOKD/blob/main/images/multi-net.png)
 
+
+![multi-net](https://github.com/hfutqian/SwitOKD/blob/main/images/multi-net.png)
+Figure 1 The multi-network framework for training 3 networks simultaneously, including two fundamental basis topologies: 2T1S (left) and 1T2S (right).
 
 
 ## Requirements
