@@ -21,3 +21,17 @@ basically on a par with other online arts.
 
 
 ## Results
+
+
+
+![results_table4](https://github.com/hfutqian/SwitOKD/blob/main/images/results_table4.png)
+
+
+
+
+
+
+
+
+
+
