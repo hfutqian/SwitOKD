@@ -15,7 +15,7 @@ basically on a par with other online arts.
 Based on the above, to endow SwitOKD with the extendibility to **multi-network setting** with large distillation gap, we build two types of fundamental *basis topologies* below: multiple teachers *vs* one student and one teacher *vs* multiple students. In the implementation, we take 3 networks as an example and denote the basis topologies as **2T1S** and **1T2S**, respectively; see Figure 2.
 
 ![multi-net](https://github.com/hfutqian/SwitOKD/blob/main/images/multi-net.png)
-Figure 1 The multi-network framework for training 3 networks simultaneously, including two fundamental basis topologies: **2T1S** (left) and **1T2S** (right).
+Figure 2 The multi-network framework for training 3 networks simultaneously, including two fundamental basis topologies: **2T1S** (left) and **1T2S** (right).
 
 
 ## Requirements
