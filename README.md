@@ -1,5 +1,5 @@
 # Switchable Online Knowledge Distillation [ECCV 2022]
-This repository is the official code for the paper "Switchable Online Knowledge Distillation".
+This repository is the official code for the paper "Switchable Online Knowledge Distillation" by Biao Qian, Yang Wang (corresponding author: yangwang@hfut.edu.cn), Hongzhi Yin, Richang Hong, Meng Wang.
 
 ## Introduction
 To break through the bottlenecks over the gap between teacher and student --- e.g., Why and when does a large gap harm the performance, especially for student? How to quantify the gap between teacher and student? we deeply analyze the adversarial impact
