@@ -38,7 +38,7 @@ python ./SwitOKD_code/Test/SwitOKD/main.py
 
 ## Results
 
-
+The performance of our models is measured by Top-1 classification accuracy (%), which is reported below:
 
 ![results_table4](https://github.com/hfutqian/SwitOKD/blob/main/images/results_table4.png)
 
