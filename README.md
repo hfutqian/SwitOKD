@@ -51,6 +51,7 @@ The performance of our models is measured by Top-1 classification accuracy (%), 
 * Grad-cam visualization is adopted to generate a *heat map* (red / blue region corresponds to high / low value) localizing class-discriminative regions. 
 * Figure 3(a) shows the visual results by *superimposing the heat map onto corresponding original image*. 
 * Figure 3(b) shows *3D surface of heat maps* for teacher and student (the more the peak overlaps, the better the student mimics teacher), where x and y axis denote the width and height of an image, while z axis represents the gray value of the heat map.
+
 *The visual analysis confirms that our adaptive switching strategy enables student to mimic teacher well, and thus improves the classifcation accuracy.*
 
 ![visual_results](https://github.com/hfutqian/SwitOKD/blob/main/images/visual_results.png)
