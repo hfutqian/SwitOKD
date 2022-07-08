@@ -20,6 +20,7 @@ Figure 2 The multi-network framework for training 3 networks simultaneously, inc
 * python3.6
 * pytorch1.3.1
 * cuda10.0
+* lmdb
 
 ## Usages
 
