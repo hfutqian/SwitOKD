@@ -43,7 +43,10 @@ The performance of our models is measured by Top-1 classification accuracy (%), 
 
 ![results_table4](https://github.com/hfutqian/SwitOKD/blob/main/images/results_table4.png)
 
+
+
 * The results of **2T1S** and **1T2S** for training three networks simultaneously
+
 ![results_table7](https://github.com/hfutqian/SwitOKD/blob/main/images/results_table7.png)
 
 
