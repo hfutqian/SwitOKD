@@ -45,8 +45,7 @@ python ./SwitOKD_code/Test/SwitOKD/main.py
 ![results_table7](https://github.com/hfutqian/SwitOKD/blob/main/images/results_table7.png)
 
 ![visual_results](https://github.com/hfutqian/SwitOKD/blob/main/images/visual_results.png)
-
-
+<center>Figure 3 Visual analysis of why SwitOKD works.</center>
 
 
 
