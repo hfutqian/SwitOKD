@@ -26,7 +26,7 @@ Figure 2 The multi-network framework for training 3 networks simultaneously, inc
 
 To train the student and teacher model described in the paper, run the following command:
 ```
-python 
+python ./SwitOKD_code/Train/SwitOKD/main.py
 ```
 
 
