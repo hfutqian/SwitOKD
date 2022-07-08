@@ -45,7 +45,7 @@ python ./SwitOKD_code/Test/SwitOKD/main.py
 ![results_table7](https://github.com/hfutqian/SwitOKD/blob/main/images/results_table7.png)
 
 
-Visual results: Grad-cam visualization generates a heat map (red / blue region corresponds to high / low value) localizing class-discriminative regions. Figure 3(a) shows the visual results by superimposing the heat map onto corresponding original image. Figure 3(b) shows 3D surface of heat maps for teacher and student (the more the peak overlaps, the better the student mimics teacher), where x and y axis denote the width and height of an image, while z axis represents the gray value of the heat map.
+**Visual results**: Grad-cam visualization generates a heat map (red / blue region corresponds to high / low value) localizing class-discriminative regions. Figure 3(a) shows the visual results by superimposing the heat map onto corresponding original image. Figure 3(b) shows 3D surface of heat maps for teacher and student (the more the peak overlaps, the better the student mimics teacher), where x and y axis denote the width and height of an image, while z axis represents the gray value of the heat map.
 
 ![visual_results](https://github.com/hfutqian/SwitOKD/blob/main/images/visual_results.png)
 <center>Figure 3 Visual analysis of why SwitOKD works.</center>
