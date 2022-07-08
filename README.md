@@ -29,6 +29,11 @@ To train the student and teacher model described in the paper, run the following
 python ./SwitOKD_code/Train/SwitOKD/main.py
 ```
 
+To evaluate the trained student or teacher model, run the following command:
+```
+python ./SwitOKD_code/Test/SwitOKD/main.py
+```
+
 
 ## Results
 
