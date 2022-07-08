@@ -24,6 +24,10 @@ Figure 2 The multi-network framework for training 3 networks simultaneously, inc
 ## Usages
 
 
+To train the student and teacher model described in the paper, run the following command:
+```
+python 
+```
 
 
 ## Results
