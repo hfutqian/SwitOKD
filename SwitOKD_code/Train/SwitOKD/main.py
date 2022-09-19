@@ -76,7 +76,7 @@ def train(epoch):
         epsilon = torch.exp(-1 * (pt_y / (pt_y + ps_y)))
         delta = ps_y - epsilon * pt_y
 
-        if ps_pt > delta:
+        if ps_pt > delta and pt_y < ps_y:
             loss_S = criterion(output_S, target) + \
                      kl_div(output_T.detach(), output_S, 1)
 
