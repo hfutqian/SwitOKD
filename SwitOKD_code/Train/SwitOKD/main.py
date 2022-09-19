@@ -73,7 +73,7 @@ def train(epoch):
         pt_y = dist_label(target_onehot, output_T.detach())
         ps_pt = dist_gap(output_T.detach(), output_S.detach(), 1)
 
-        epsilon = torch.exp(pt_y / (pt_y + ps_y))
+        epsilon = torch.exp(-1 * (pt_y / (pt_y + ps_y)))
         delta = ps_y - epsilon * pt_y
 
         if ps_pt > delta:
