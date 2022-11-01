@@ -27,12 +27,12 @@ Figure 2 The multi-network framework for training 3 networks simultaneously, inc
 
 To train the student and teacher model described in the paper, run the following command:
 ```
-python ./SwitOKD_code/Train/SwitOKD/main.py
+python ./SwitOKD_code/Tiny-ImageNet/Train/SwitOKD/main.py
 ```
 
 To evaluate the trained student or teacher model, run the following command:
 ```
-python ./SwitOKD_code/Test/SwitOKD/main.py
+python ./SwitOKD_code/Tiny-ImageNet/Test/SwitOKD/main.py
 ```
 
 
