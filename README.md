@@ -61,7 +61,16 @@ The performance of our models is measured by Top-1 classification accuracy (%), 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figure 3 Visual analysis of why SwitOKD works.
 
 
+## Citation
 
+@inproceedings{qian2022switchable,
+  title={Switchable online knowledge distillation},
+  author={Qian, Biao and Wang, Yang and Yin, Hongzhi and Hong, Richang and Wang, Meng},
+  booktitle={European Conference on Computer Vision},
+  pages={449--466},
+  year={2022},
+  organization={Springer}
+}
 
 
 
