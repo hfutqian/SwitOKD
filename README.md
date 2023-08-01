@@ -62,7 +62,6 @@ The performance of our models is measured by Top-1 classification accuracy (%), 
 
 
 ## Citation
-
 @inproceedings{qian2022switchable,
   title={Switchable online knowledge distillation},
   author={Qian, Biao and Wang, Yang and Yin, Hongzhi and Hong, Richang and Wang, Meng},
