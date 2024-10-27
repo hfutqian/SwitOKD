@@ -1,6 +1,10 @@
 # Switchable Online Knowledge Distillation [ECCV 2022]
 This repository is the official code for the paper "Switchable Online Knowledge Distillation" by *Biao Qian, Yang Wang (corresponding author: yangwang@hfut.edu.cn), Hongzhi Yin, Richang Hong, Meng Wang* (ECCV 2022, Tel-Aviv, Israel).
 
+![poster](https://github.com/hfutqian/SwitOKD/blob/main/images/poster.png)
+
+
+
 ## Introduction
 To break down the bottlenecks over the gap between teacher and student --- e.g., *Why and when does a large gap harm the performance, especially for student? How to quantify the gap between teacher and student?* we deeply analyze the adversarial impact of large gap on student, and propose Switchable Online Knowledge Distillation (**SwitOKD**); see Figure 1. Instead of focusing on the accuracy gap at test phase by the existing arts, the core idea of SwitOKD is to **adaptively** calibrate *the gap at training phase*, namely **distillation gap** (quantified by ![](http://latex.codecogs.com/svg.latex?G=||p_s^{\tau}-p_t^{\tau}||_1)), via a switching strategy between two training modes — **expert mode** (pause the teacher while keep the student learning) and **learning mode** (restart the teacher and reciprocally train from scratch). To endow SwitOKD with the capacity to yield an appropriate distillation gap, we further devise an **adaptive switching threshold** (*i.e.*, ![](http://latex.codecogs.com/svg.latex?\delta=||p_s^{\tau}-y||_1-e^{-\frac{||p_t^{\tau}-y||_1}{||p_s^{\tau}-y||_1+||p_t^{\tau}-y||_1}}||p_t^{\tau}-y||_1)), which provides a formal criterion as to when to switch to learning mode or expert mode, and thus improves the student’s performance. Meanwhile, the teacher keeps basically on a par with other online arts.
 
